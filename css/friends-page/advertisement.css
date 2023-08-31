@@ -1,0 +1,33 @@
+@keyframes hidesplashscreen{
+    from{
+        opacity: 1;
+    }
+    to{
+        opacity: 0;
+        visibility: hidden;
+    }
+}
+
+.advertisement{
+    background-color: #f9f9fa;
+    padding: 7px;
+    display: flex;
+    justify-content: center;
+}
+.advertisement>p{
+    margin: 0 10px 0 5px;
+}
+#splash-screen{
+    width: 100vw;
+    height: 100vh;
+    background-color: #fef01b;
+    position: absolute;
+    top: 0;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 60px;
+    animation: hidesplashscreen 0.4s ease-in-out forwards;
+    animation-delay: 1s;
+}

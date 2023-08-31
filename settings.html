@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="kr">
+<head>
+    <link rel="stylesheet" href="../kokoa-clone-2023/css/styles.css"/>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Settings</title>
+</head>
+<body>
+    <!--status-bar-->
+    <div id="status-bar">
+        <div class="status-bar__column">
+            <span>No service</span>
+            <i class="fa-solid fa-wifi"></i>
+        </div>
+        <div class="status-bar__column">
+            <span>18:43</span>
+        </div>
+        <div class="status-bar__column">
+            <span>100%</span>
+            <i class="fa-solid fa-battery-full" style="color: #000000;"></i>
+            <i class="fa-solid fa-bolt-lightning"></i>
+        </div>
+    </div>
+    <!--Alternative Screen Header-->
+    <div class="alt-screen-header">
+        <span><i class="fa-solid fa-angle-left fa-xl" style="color: #000000;"></i></span>
+        <span style="font-weight: 700;">Settings</span>
+        <span><i class="fa-solid fa-magnifying-glass fa-lg" style="color: #000000;"></i></span>
+    </div>
+    <!--main part-->
+    <main class="main-screen">
+        <ul class="settings-list">
+            <li>
+                <i class="fa-solid fa-bullhorn fa-lg" style="color: #000000;"></i>
+                <span class="settings-list__title">Notices</span>
+            </li>
+            <li>
+                <i class="fa-solid fa-flask fa-lg" style="color: #000000;"></i>
+                <span class="settings-list__title">Kakao Lab</span>
+            </li>
+            <li id="version">
+                <span >
+                    <i class="fa-solid fa-circle-info fa-lg" style="color: #000000;"></i>
+                    <span class="settings-list__title" style="margin-left: 3px;">Version</span>
+                </span>
+                <span>
+                    <span class="settings-list__sub-title">Latest Version</span>
+                </span>
+            </li>
+        </ul>
+    </main>
+    <div class="divider"></div>
+    <main class="main-screen">
+        <ul class="settings-list">
+            <li>
+                <i class="fa-solid fa-lock" style="color: #000000;"></i>
+                <span class="settings-list__title">Privacy</span>
+            </li>
+            <li>
+                <i class="fa-regular fa-bell" style="color: #000000;"></i>
+                <span class="settings-list__title">Notifications</span>
+            </li>
+            <li>
+                <i class="fa-regular fa-user" style="color: #000000;"></i>
+                <span class="settings-list__title">Friends</span>
+            </li>
+            <li>
+                <i class="fa-regular fa-comment" style="color: #000000;"></i>
+                <span class="settings-list__title">Chats</span>
+            </li>
+            <li>
+                <span class="notification__part">
+                    <i class="fa-regular fa-sun" style="color: #000000;"></i>
+                    <span class="settings-list__title">Display</span>
+                    <span class="notification settings-notification">N</span>
+                </span>
+            </li>
+            <li id="version" style="border-bottom: 0.3px solid rgba(0,0,0,0.3);">
+                <span class="notification__part">
+                    <i class="fa-solid fa-broom" style="color: #000000;"></i>
+                    <span class="settings-list__title">Themes</span>
+                    <span class="notification settings-notification">N</span>
+                </span>
+                <span>
+                    <span class="settings-list__sub-title">Default theme</span>
+                </span>
+            </li>
+            <li>
+                <i class="fa-solid fa-phone" style="color: #000000;"></i>
+                <span class="settings-list__title">call</span>
+            </li>
+        </ul>
+    </main>
+    <div class="protector"></div>
+    <!--navigation-bar-->
+    <nav class="nav">
+        <ul class="nav__list">
+            <li class="nav__btn">
+                <a class="nav__link" href="friends.html"><i class="fa-regular fa-user fa-2x" style="color: #000000;"></i></a>
+            </li>
+            <li class="nav__btn">
+                <a class="nav__link" href="chats.html">
+                    <span class="nav__notification notification">1</span>
+                    <i class="fa-regular fa-comment fa-2x" style="color: #000000;"></i>
+                </a>
+            </li>
+            <li class="nav__btn">
+                <a class="nav__link" href="find.html">
+                    <i class="fa-solid fa-magnifying-glass fa-2x" style="color: #000000;"></i>
+                </a>
+            </li>
+            <li class="nav__btn">
+                <a class="nav__link" href="more.html">
+                    <span class="notification empty"></span>
+                    <i class="fa-solid fa-ellipsis fa-2x" style="color: #000000;"></i>
+                </a>
+            </li>
+        </ul>
+    </nav>
+
+    <script src="https://kit.fontawesome.com/1285b683fd.js" crossorigin="anonymous"></script>
+</body>
+</html>

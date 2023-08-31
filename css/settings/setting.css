@@ -1,0 +1,29 @@
+.settings-list li{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-bottom: 0.3px solid rgba(0,0,0,0.3);
+    padding: 20px 0;
+    font-size: 18.5px;
+}
+.settings-list__title{
+    margin-left: 15px;
+}
+.settings-list__sub-title{
+    color: rgba(0,0,0,0.6);
+}
+.divider{
+    height: 1px;
+    width: 100%;
+    background-color: rgba(0,0,0,0.1);
+    margin: 20px 0;
+}
+#version{
+    justify-content: space-between;
+    border: none;
+}
+.notification__part{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}

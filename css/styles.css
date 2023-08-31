@@ -1,8 +1,34 @@
 @import "reset.css";
-@import "../css/first-page/status-bar.css";
+/*components*/
+@import "../css/components/status-bar.css";
+@import "../css/components/nav-bar.css";
+@import "../css/components/header.css";
+@import "../css/components/user-component.css";
+@import "../css/components/channel.css";
+@import "../css/components/notification.css";
+@import "../css/components/icon.css";
+@import "../css/components/alt-screen-header.css";
+/*first-page*/
 @import "../css/first-page/login-form.css";
 @import "../css/first-page/welcom.css";
-
+/*friends-page*/
+@import "../css/friends-page/advertisement.css";
+/*find-page*/
+@import "../css/find-page/find-icon.css";
+@import "../css/find-page/open-chat.css";
+/*more-page*/
+@import "../css/more-page/more.css";
+/*settings*/
+@import "../css/settings/setting.css";
+/*chat-page*/
+@import "../css/chat-page/chat-only.css";
 body{
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    box-sizing: border-box;
+}
+.main-screen{
+    padding: 0 25px;
+}
+.protector{
+    height: 10vh;
 }

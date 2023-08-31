@@ -1,0 +1,11 @@
+.channel{
+    border-top: 1px solid #dcdcdc;
+}
+.channel__bar{
+    font-size: 13px;
+    color: rgba(0,0,0,0.4);
+    padding: 10px 0;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: space-between;
+}

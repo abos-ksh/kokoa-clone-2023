@@ -1,0 +1,22 @@
+.screen-header{
+    width: 100vw;
+    height: 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:10px 25px;
+    box-sizing: border-box;
+}
+.screen-header__title{
+    font-size: 32px;
+    font-weight: 900;
+}
+.screen-header__icons{
+    width: 30%;
+    display: flex;
+    justify-content: space-around;
+}
+.find-screen-header__icons{
+    width: 15%;
+    justify-content: space-between;
+}

@@ -1,0 +1,126 @@
+.chat__status-bar{
+    position: fixed;
+    top: 0;
+    z-index: 1;
+}
+#chat-screen{
+    background-color: #abc1d1;
+    height: 500vh;
+}
+.chat__timestamp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    margin-top: 75px;
+}
+.date__text{
+    background-color: rgba(0,0,0,0.2);
+    padding: 10px;
+    font-size: 10px;
+    color: white;
+    border-radius: 15px;
+}
+
+.chat__fixed{
+    background-color: #abc1d1;
+}
+.chat-reception{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 15px;
+    margin-bottom: 25px;
+    padding: 5px;
+}
+.chat-reception img{
+    margin-right: 8px;
+    margin-bottom: 0;
+}
+.chat-reception__info{
+    height: 100%;
+    color: rgba(0,0,0,0.6);
+    font-size: 15px;
+    font-weight: 500;
+}
+.chat__author{
+    display: block;
+    margin-bottom: 8px;
+}
+.chat__bubble{
+    display: inline-block;
+    background-color: white;
+    color: black;
+    border-radius: 15px;
+    border-top-left-radius: 0px;
+    font-size: 20px;
+    padding: 8px;
+    box-sizing: border-box;
+    margin-right: 2px;
+}
+.chat__time{
+    color: rgba(0,0,0,0.5);
+    font-size: 13px;
+    margin-left: 5px;
+}
+.chat-reception__content{
+    display: flex;
+    align-items: flex-end;
+}
+.chat-sending__content{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin-bottom: 25px;
+}
+.chat-sending__content .chat__bubble{
+    border-top-left-radius: 15px;
+    border-top-right-radius: 0;
+    background-color: #fef01b;
+    margin-left: 4px;
+}
+.reply{
+    width: 100%;
+    background-color: white;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    bottom: 0;
+}
+.reply__column{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+.reply__column:first-child{
+    width: 10%;
+}
+.reply__column:last-child{
+    width: 90%;
+}
+.reply input{
+    width: 100%;
+    height: 30px;
+    border: 0.3px solid rgba(0,0,0,0.2);
+    border-radius: 15px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.reply__column:first-child{
+    justify-content: center;
+    margin-right: 20px;
+}
+.reply__column:last-child > i{
+    position: absolute;
+    right: 50px;
+}
+.reply__column:last-child button {
+    position: absolute;
+    right: 5px;
+    border: none;
+    padding: 0;
+    border-radius: 50%;
+}

@@ -1,6 +1,5 @@
 .login--form,
-.login--form__text-input,
-.login--form__btn{
+.login--form__text-input{
     margin: 10px;
     display: flex;
     flex-direction: column;
@@ -12,23 +11,29 @@
     transition: border-color 0.3s ease-in-out;
 }
 
-.login--form__text-input input{
+.login--form__text-input input:not([class="login--form__btn"]){
     padding: 20px 0;
     border-bottom: 1px solid rgba(0, 0, 0, 0.2);
 }
 
-.login--form__btn input{
+.login--form__btn{
+    border: 0px;
     border-radius: 5px;
-    margin: 5px;
+    margin-top: 5px;
     padding: 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.login--form__btn input:not([type="button"]){
+.login--form__btn:not([type="button"]){
+    margin-top: 20px;
     background-color:#fef01b;
     cursor: pointer;
 }
 
 .login--form a{
+    font-size: 12px;
     text-decoration: none;
     text-align: center;
     color: black;

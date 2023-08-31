@@ -14,5 +14,5 @@
 .welcome--header__text{
     width: 70%;
     padding: 10px;
-    color: lightgray;
+    color: rgba(0,0,0,0.3);
 }

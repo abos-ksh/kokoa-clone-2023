@@ -1,0 +1,29 @@
+.alt-screen-header{
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    z-index: 1;
+    top: 3.5%;
+}
+.alt-screen-header span{
+    font-size: 20px;
+}
+.alt-screen-header__column{
+    width: 33%;
+}
+.alt-screen-header__column__text{
+    text-align: center;
+}
+.alt-screen-header__icons{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.alt-screen-header__icons__icon{
+    margin-left: 15%;
+}

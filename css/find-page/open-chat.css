@@ -1,0 +1,52 @@
+.open-chat__column{
+    height: 20vh;
+    padding: 10px 0;
+    border-bottom: 0.3px solid rgba(0,0,0,0.3);
+    display: flex;
+    justify-content: space-between;
+}
+.open-chat__description{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.open-chat__description__title{
+    font-size: 30px;
+    font-weight: 700;
+}
+.open-chat__description__more-infor{
+    margin: 7px 0;
+    font-size: 20px;
+    color: rgba(0,0,0,0.3);
+}
+.open-chat__description__writer-infor{
+    font-size: 15px;
+    display: flex;
+    justify-content: space-around;
+}
+.active{
+    margin-left: 5px;
+    border-left: 0.5px solid rgba(0,0,0,0.3);
+    color: hotpink;
+    padding: 0px 5px;
+}
+.open-chat__img{
+    position: relative;
+}
+.open-chat__img img{
+    border-radius: 10px;
+    width: 20vh;
+    height: 20vh;
+}
+.likey{
+    padding: 1px;
+    font-size: 15px;
+    text-align: center;
+    color: white;
+    border-radius: 35%;
+    background-color: rgba(0,0,0,0.5);
+    position: absolute;
+    bottom: 3px;
+    right: 3px;
+}

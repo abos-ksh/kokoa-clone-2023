@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="kr">
 <head>
     <link rel="stylesheet" href="../kokoa-clone-2023/css/styles.css"/>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>welcome</title>
 </head>
 <body>
     <div id="status-bar">
@@ -26,13 +26,11 @@
         <p class="welcome--header__text">If you have a Kokoa Account, log in with your email or phone number</p>
     </header>
     <main class="login--form">
-        <form class="login--form__text-input">
+        <form class="login--form__text-input" action="friends.html" method="get">
             <input type="text"required="true" placeholder="Email or phone number"/>
             <input type="password" required placeholder="Password"/>
-        </form>
-        <form class="login--form__btn">
-            <input type="submit" value="Log In"/>
-            <input type="button" value="Sign Up"/>
+            <input type="submit" value="Log In" class="login--form__btn"/>
+            <input type="button" value="Sign Up" class="login--form__btn"/>
         </form>
         <a href="#" target="_self">Find kokoa Account or Password</a>
     </main>
